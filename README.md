@@ -6,5 +6,9 @@ ads (google ima sdk) - will run every time you start a game
 random start
 menu - using the mouse
 game - useing by keyboard
+exit - will send to google
 
+
+
+![](tic-tac-toe-gif.gif)
 
