@@ -15,8 +15,5 @@ exit - will send to google
 
 
 
-<<<<<<< HEAD
 ![](tic-tac-toe-gif.gif)
 
-=======
->>>>>>> 13488cc113ac92f150392e94e3b07d9c147fc220
