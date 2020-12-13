@@ -1,0 +1,11 @@
+input.x {
+    font-size: 75px;
+    border: 10px solid blue;
+    border-radius: 40px;
+}
+
+input.circle {
+    font-size: 75px;
+    border: 10px solid red;
+    border-radius: 40px;
+}

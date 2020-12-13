@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/ads.css">
+    <link rel="stylesheet" href="src/board.css">
+    <link rel="stylesheet" href="src/player.css">
+    <script src="http://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+    <script src="src/board.js" defer></script>
+    <script src="src/ads.js" defer></script>
+    <script src="src/player.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="game-title-turn" turn-title-message-text></div>
+    <div class="board hide" id="board">
+        <input type="button" class="cell" tabindex="0" id='cell0' data-cell></input>
+        <input type="button" class="cell" tabindex="1" id='cell1' data-cell></input>
+        <input type="button" class="cell" tabindex="2" id='cell2' data-cell></input>
+        <input type="button" class="cell" tabindex="3" id='cell3' data-cell></input>
+        <input type="button" class="cell" tabindex="4" id='cell4' data-cell></input>
+        <input type="button" class="cell" tabindex="5" id='cell5' data-cell></input>
+        <input type="button" class="cell" tabindex="6" id='cell6' data-cell></input>
+        <input type="button" class="cell" tabindex="7" id='cell7' data-cell></input>
+        <input type="button" class="cell" tabindex="8" id='cell8' data-cell></input>
+    </div>
+    <div class="game-menu" id="gameMenu">
+        <div data-title-message-text>Tic Tac Tue!</div>
+        <button id="startButton">Start Game</button>
+        <button id="exitButton">Exit</button>
+    </div>
+    <div id="page-content">
+        <div id="video-container">
+          <video id="video-element">
+            <source src="https://storage.googleapis.com/interactive-media-ads/media/android.mp4"></source>
+            <source src="https://storage.googleapis.com/interactive-media-ads/media/android.webm"></source>
+          </video>
+          <div id="ad-container"></div>
+        </div>
+    </div>
+</body>
+</html>
